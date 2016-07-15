@@ -3,9 +3,12 @@
     <head>
         <title>ngClassifieds</title>
     </head>
-    <body>
+    <body ng-init="message = 'Hello World'" ng-controller="classifiedsController">
+        <input type="text" placeholder="Enter name" ng-model="name">
+        <h1>{{ name }}</h1>
 
-        <script src="node_modules/angular/"></script>
+        <script src="node_modules/angular/angular.js"></script>
         <script src="/scripts/app.js"></script>
+        <script src="/components/controllers.js"></script>
     </body>
 </html>
