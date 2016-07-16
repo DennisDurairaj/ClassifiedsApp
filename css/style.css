@@ -1,0 +1,11 @@
+html {
+    text-rendering: optimizeLegibility;
+}
+
+.add-btn {
+    margin-top: 7px;
+}
+
+.image-config {
+    height: 320px;
+}
